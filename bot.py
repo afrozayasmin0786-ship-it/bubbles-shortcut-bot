@@ -184,7 +184,7 @@ async def on_message(message):
     if message.guild.id != GUILD_ID:
         return
 
-    shortcut = message.content.strip()
+    shortcut = message.content.strip().lower()
 
     if shortcut not in SHORTCUTS:
         return
