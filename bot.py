@@ -1,4 +1,3 @@
-```python
 import os
 import discord
 
@@ -298,4 +297,3 @@ if not TOKEN:
     )
 
 bot.run(TOKEN)
-```
